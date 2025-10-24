@@ -2,11 +2,18 @@
 ####                    TASK                     #####
 ##   ---------------------------------------------   #
 #
-# import numpy as np
-# 
-# data = np.array([1, 2, 3, 4, 5, 6, 9.87654321])
-# mean = np.mean(data)
-# print(mean)
+import numpy as np
+
+data = np.array([1, 2, 3, 4, 5, 6, 9.87654321])
+mean = np.mean(data)
+# mean = np.mean([1, 2, 3, 4, 5, 6, 9.87654321])
+
+print("\n" + "-"*55)
+print(" FIRST TASK AVERAGE NUMBER SEQUENCE")
+print("-"*55 + "\n")
+
+print(f"mean_N              ≈ {mean:.3f}\n")
+print(f"data                = {data}")
 
 ##   ---------------------------------------------   #
 ####                    TASK                     #####
