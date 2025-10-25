@@ -113,7 +113,7 @@ diff = np.abs(mean_temps[1]-mean_temps[2])
 # print("temps_filtered for mask 0:", temps_filtered_arr[0])   # array of temps for [5,7]
 
 # ---------------------------
-# Konsistente, saubere Ausgabe
+# Print Outs in Order
 # ---------------------------
 print("\n" + "-"*55)
 print(" TEMPERATURE STATISTICS")
