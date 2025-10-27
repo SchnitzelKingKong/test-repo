@@ -23,7 +23,7 @@
 - Score Keeper
 - Guide for Improving Predictions
 
-Regression & Calssification
+(Linear) Regression & Calssification
 
 ### Regression LF
 
