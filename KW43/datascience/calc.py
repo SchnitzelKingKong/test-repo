@@ -106,7 +106,7 @@ temps_filtered_arr = np.array(temps_filtered, dtype=object)
 # per-mask means (use nanmean to ignore NaNs)
 mean_temps = np.array([np.nanmean(t) if t.size else np.nan for t in temps_filtered])
 
-# calculation
+# calculation (MAE [Mean Absolut Error] – also is a good use case for the np.abs() function!)
 diff = np.abs(mean_temps[1]-mean_temps[2])
 
 # example prints by integer index
