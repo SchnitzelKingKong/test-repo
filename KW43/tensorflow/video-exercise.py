@@ -28,14 +28,16 @@ print(y_train.shape)
 # Sequential API of Keras (convenient but not flexible)
 
 ## Building model with an including function
-# model = keras.Sequential(
-#     [
-#         keras.Input(shape=(28*28,)),  # Add comma to make it a proper tuple
-#         layers.Dense(512, activation='relu'),
-#         layers.Dense(256, activation='relu'),
-#         layers.Dense(10, activation='softmax')  # Add softmax for classification
-#     ]
-# )
+model = keras.Sequential(
+    [
+        keras.Input(shape=(28*28,)),  # Add comma to make it a proper tuple
+        layers.Dense(512, activation='relu'),
+        layers.Dense(256, activation='relu'),
+        layers.Dense(10, activation='softmax')  # Add softmax for classification
+    ]
+)
+
+print(model.summary())
 
 ## Building the model with a segmented function, so a print-function can be injected inbetween for better debugging
 # model = keras.Sequential()
