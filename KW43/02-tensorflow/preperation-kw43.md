@@ -59,6 +59,11 @@
 - Gradient Decent
 - Stochastic GRadient Decent (Drunk Man)
 
+### Links:
+- [Gradient (Mathematik)](https://www.biancahoegel.de/mathe/operator/gradient.html)
+
+- [[Video] Gradient, Gradientenvektor, Schreibweise, Ableitung, mehrdimensionale Analysis](https://www.youtube.com/watch?v=sDXlFuma7CY)
+
 ### Types:
 - Learning Rate
 - Momentum
@@ -77,7 +82,7 @@
 - Parameter
 
 ### Test Data Sets
-- Training Data ('overfitting' possible)
+- Training Data ('**overfitting**' possible)
 - Validation Data
     - Qualifying the mdoel, Hyper Parameter
 - Test Data

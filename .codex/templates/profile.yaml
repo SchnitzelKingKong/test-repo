@@ -1,0 +1,25 @@
+preferences:
+  language_primary: English
+  language_fallback: German
+  tone: concise-friendly
+  code_style: minimal-diff, consistent-with-repo
+  summarize_strategy:
+    - keep NOTES.md up to date each session
+    - pin key decisions and file references
+    - trim long logs; store commands and outcomes
+  context_usage:
+    - reference file paths + line numbers
+    - avoid pasting large blobs; link to files
+    - break tasks into small steps
+
+workspace:
+  important_paths:
+    - KW43/_misc/agent.py
+    - KW43/tensorflow/Week1_Notebook1_Housing_Prices.ipynb
+    - README.md
+    - KW43/tensorflow/preperation-kw43.md
+
+session:
+  notes_file: .codex/NOTES.md
+  instructions_file: .codex/instructions.md
+
