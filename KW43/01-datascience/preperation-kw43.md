@@ -9,3 +9,5 @@
 - [How to Use Lists in Python](https://www.youtube.com/watch?v=9OeznAkyQz4&list=PLTjRvDozrdlxj5wgH4qkvwSOdHLOCx10f&index=11)
 
 - [The Ultimate VS Code Setup for Data & AI Projects](https://www.youtube.com/watch?v=mpk4Q5feWaw)
+
+- [Arrays, Tuples, Records & Lists Explained | A-Level & GCSE Computer Science Knowledge Sprint](https://youtu.be/mEYwN9E7Gio?si=ixtyoyDVVE5RO_E6)
