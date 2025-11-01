@@ -1,0 +1,6 @@
+1, Bread
+2, Roles (Brötchen)
+3, Croissant
+4, Pastry (Konditorei)
+5, Cakes
+6, Seasonal Products
